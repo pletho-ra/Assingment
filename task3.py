@@ -29,7 +29,7 @@ def compute(n):
         lim = n - 20
         out = lim * lim
         out = out - lim
-        out = out / 2               # Floor division
+        out = out // 2               # Floor division
     print(out)
 
 
